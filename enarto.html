@@ -91,7 +91,7 @@
 						<h2>BACKGROUND</h2>
 
 						<p class="normal">
-							During the summer of 2013, our team at <a href="http://indiainnovationlabs.in" target="_blank" class="decorate">India Innovation Labs</a> decided to explore new possibilities of improving the retail customer shopping experience. We wanted to create a delightful and engaging experience, and at the same time create value for all the stakeholders involved. ENARTO was born out of the many fun experiments we had with the Microsoft Kinect.
+							During the summer of 2013, our team at <a href="http://indiainnovationlabs.in" target="_blank" class="decorate">India Innovation Labs</a> decided to explore new possibilities of improving the retail customer shopping experience. We wanted to design a delightful and engaging experience, and at the same time create value for all the stakeholders involved. ENARTO was born out of the many fun experiments we had with the Microsoft Kinect.
 
 
 						</p>
@@ -109,7 +109,7 @@
 					<div class="col-lg-6 col-lg-offset-3">
 						<h2>MY ROLE</h2>
 
-						<p class="normal"> I built the working prototype and the concept video which was used to demonstrate the product to potential clients and customers. I also designed the interactions with the menu and the virtual models, and several versions of the user interface.
+						<p class="normal">We were a small team of 3 engineers at India Innovation Labs sharing equal responsibilites for the project. I built the working prototype and the concept video which was used to demonstrate the product to potential clients and customers. I also designed the gesture-based interactions with the menu and the virtual models, and several iterations of the user interface.
 						</p>
 						
 					</div>
@@ -130,11 +130,13 @@
 						
 						<h3>CONCEPT VIDEO</h3>
 
+						
+						<p class="normal">We used the video prototyping technique early in the process to demonstrate the concept to potential clients and customers.
+						</p>
+
 						<div class="video-container">
 							<iframe src="//www.youtube.com/embed/fgKnQ29cshI" frameborder="0" allowfullscreen> </iframe>
 						</div>
-						<p class="normal">We used the video prototyping technique early in the process to demonstrate the concept to potential clients and customers.
-						</p>
 
 						<!-- <p class="normal">The video below demonstrates the concept of our solution.</p> -->
 					</div>	
@@ -148,12 +150,14 @@
 
 						<h3>FUNCTIONAL PROTOTYPE</h3>
 
-						<p class="normal">The functional prototype features motion tracking, virtual jewellery overlays and a gesture-based interface. This system is also accompanied by a Customer Assistance app which runs on a tablet connected to the system over WiFi. This app can be used by a sales assistant to guide the customer through the jewellery catalog. </p>
+						<p class="normal">The functional prototype features motion tracking, virtual jewellery overlays and a gesture-based interface. </p>
 
 						<!-- <p class="normal">The early functional prototype of our tryouts application also featured a tablet application used by the in-store assistant to help the customer shortlist items and try them on.</p> -->
 						<div class="video-container">
 							<iframe src="https://www.youtube.com/embed/lALCLn37xwo" frameborder="0" allowfullscreen></iframe>
 						</div>
+
+						<p class="normal">This system is also accompanied by a Customer Assistance app which runs on a tablet connected to the system over WiFi. This app can be used by a sales assistant to guide the customer through the jewellery catalog. </p>
 
 
 
@@ -162,6 +166,40 @@
 				</div>
 				
 			</section>
+
+			<section id="challenges" class="grey">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h2>CHALLENGES</h2>
+
+						<h3>Gestural Interactions</h3>
+						<p class="normal"> Designing interactions for a gestural interface involves many challenges, the most important ones include helping the user discover what interactions are possible and how to perform those interactions. Another challenge was deciding which gestures are natural for users to perform in the given context. We constantly faced these issues while testing with users. The customer assistance application was introduced for the sales assistant to help the user navigate the system.
+						</p>
+
+						<h3>Realism</h3>
+						<p class="normal"> We wanted the interactions with the virtual jewellery models to feel real and natural. This included deforming the models on touch and movement using mathematical simulations models for jewellery objects and handling occlusion cases accurately.
+						</p>
+
+						<div class="persona-images">
+							<img src="images/enarto-min/enarto-challenges.png" class="img-fluid responsive" alt="Jewelry occlusion">
+							<div class="image-caption">Jewellery interaction and occlusion handling</div>
+						</div>
+
+						<p class="normal"> We used cloth simulation models and basic game-engine physics for modelling collision behaviors of the virtual jewellery objects. This provided an acceptable level of realism in the interactions, without significantly affecting the system speed and performance.
+						</p>
+
+						<div class="persona-images">
+							<img src="images/enarto-min/shroud.png" class="img-fluid responsive" alt="Jewelry occlusion">
+							<div class="image-caption">Assigning collision weights to virtual objects</div>
+						</div>
+						
+					</div>
+				</div>
+				
+		
+			</section>
+
+
 			<div id="footer">
 					<div class="row">
 						<div class="col-lg-6 col-lg-offset-3">
