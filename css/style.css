@@ -4,7 +4,7 @@ html{
 body {
 	background-color:#E9EDEF;
 	margin: 0px;
-  font-size: 24px;
+  font-size: 100%;
   font-family: "calluna",serif;
   font-style: normal;
   font-weight: 300;
@@ -47,7 +47,7 @@ body {
   }
   .right-content{
     margin-left: 22%;
-    height: 100%;
+    height: auto;
   }
   section{
     padding-top: 170px;
@@ -61,7 +61,7 @@ body {
     font-family: "bebas-neue",sans-serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 72px;
+    font-size: 7em;
     margin-bottom: 36px;
     /*margin-top: 54px;*/
 
@@ -70,7 +70,7 @@ body {
     font-family: "bebas-neue",sans-serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 60px;
+    font-size: 6em;
     margin-bottom: 36px;
     /*line-height: 4.5rem;*/
     line-height: 70px;
@@ -80,7 +80,7 @@ body {
     font-family: "bebas-neue",sans-serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 38px;
+    font-size: 4em;
     margin-bottom: 36px;
     margin-top: 72px;
     /*line-height: 100px;*/
@@ -93,7 +93,7 @@ body {
     font-family: "bebas-neue",sans-serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 24px;
+    font-size: 2em;
     
     /*margin-bottom: 36px;*/
     /*margin-top: 72px;*/
@@ -109,16 +109,16 @@ body {
     font-family: "calluna", serif;
     font-style: "normal";
     font-weight: 400;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 2.6em;
+    line-height: 1.6em;
   }
   .intro-about{
     font-family: "calluna", serif;
     font-style: "normal";
     font-weight: 400;
-    font-size: 28px;
-    line-height: 22px;
-    margin-top: -20px;
+    font-size: 2.7em;
+    line-height: 1.6em;
+    margin-top: -30px;
   }
   .normal{
     font-family: "calluna", serif;
@@ -139,7 +139,7 @@ body {
   font-family: "calluna",serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2.0em;
   color: #716e6f;
 }
 .quote{
@@ -790,6 +790,7 @@ body {
   /*left: auto;*/
   text-align: center;
   margin-left: auto;
+  font-size: 2.2em;
 }
 #social-footer > a > i {
   padding-left: 10px;
@@ -909,6 +910,10 @@ ul > li {
   margin: 15px 0 15px 0;
 }
 .decorate{
+  color: #EF5350;
+  text-decoration: none;
+}
+.highlight{
   color: #EF5350;
   text-decoration: none;
 }
