@@ -41,12 +41,12 @@ body {
     width: 130px;
   }
   .left-sidebar{
-    width:22%;
+    width:20%;
     height: 100%;
     position: fixed;
   }
   .right-content{
-    margin-left: 22%;
+    margin-left: 20%;
     height: auto;
   }
   section{
@@ -80,7 +80,7 @@ body {
     font-family: "bebas-neue",sans-serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 4em;
+    font-size: 3.5em;
     margin-bottom: 36px;
     margin-top: 72px;
     /*line-height: 100px;*/
@@ -108,8 +108,8 @@ body {
   .intro{
     font-family: "calluna", serif;
     font-style: "normal";
-    font-weight: 400;
-    font-size: 2.6em;
+    font-weight: 300;
+    font-size: 2.2em;
     line-height: 1.6em;
   }
   .intro-about{
@@ -124,7 +124,7 @@ body {
     font-family: "calluna", serif;
     font-style: "normal";
     font-weight: 300;
-    font-size: 24px;
+    font-size: 2.2em;
     line-height: 38px;
 
   }
@@ -132,14 +132,14 @@ body {
    font-family: "calluna",serif;
    font-style: normal;
    font-weight: 400;
-   font-size: 20px;
+   font-size: 1.7em;
    line-height: 32px;
  }
  .micro {
   font-family: "calluna",serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 2.0em;
+  font-size: 1.7em;
   color: #716e6f;
 }
 .quote{
@@ -207,7 +207,7 @@ body {
   /*position: relative;*/
  }
  .image-caption{
-  font-size: 18px;
+  font-size: 1.7em;
   padding-top: 8px;
   font-style: italic;
   color: #716e6f;
@@ -228,6 +228,9 @@ body {
   padding: 0px 0 20px 0;
   /*height: 100%;*/
 }
+
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
@@ -729,7 +732,7 @@ body {
   box-shadow: 4px 4px 4px #E9EDEF;
 }
 .video-container{
-  margin-top: 48px;
+  margin-top: 24px;
   margin-bottom: 36px;
   position: relative;
   padding-bottom: 53%; /* 16:9 */
@@ -780,7 +783,7 @@ body {
   font-family: "bebas-neue",sans-serif;
   font-style: "normal";
   font-weight: 300;
-  font-size: 36px;
+  font-size: 3.0em;
   color: #231F20;
 }
 #social-footer{

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sahil Anand's Personal Website and Portfolio.">
+	<meta name="keywords" content="sahil, sahil yousif, sahil anand, resume, portfolio, personal page, personal website, digital hampi, user experience, ux">
+	<meta name="author" content="Sahil Anand">
+	<title>Sahil Anand</title>
+
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<script src="https://use.typekit.net/ldy3scx.js"></script>
+
+	<script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+</head>
+<body>
+
+	<div class="left-sidebar">
+		<div id="sidebar" class="hidden-sm">
+			<div id="logo-wrapper">
+				<a href="index.html"><img src="images/site-logo.svg" width="30%"></a>
+			</div>
+			<div id="nav-menu">
+				<ul>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="Sahil_Resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="index.html">About</a></li>
+				</ul>
+			</div>
+			<div id="social-footer">
+				
+				<a href="mailto:sahilyousif@gmail.com" class="no-decoration" target="_top"><i class="fa fa-envelope-o"></i></a>
+				<a href="https://www.linkedin.com/in/sahil-anand-a420b314?trk=hp-identity-name" class="no-decoration" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/sahilyousif" class="no-decoration" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="no-decoration" target="_top"><i class="fa fa-twitter"></i></a>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="top-navbar">
+		
+		
+		<div class="row">
+			<div class="col-xs-3">
+				<div id="logo-wrapper">
+					<img src="images/site-logo.svg" width="100%">
+				</div>
+			</div>
+			<div class="col-xs-9 pull-right" >
+				<a href="portfolio.html">Portfolio</a>
+				<a href="Sahil_Resume.pdf" target="_blank">Resume</a>
+				<a href="index.html">About</a>
+			</div>
+			
+		</div>
+	</div>
+	<div class="right-content">
+
+		<div id="content">
+			<section id="opener">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h1>Kubi</h1>
+						
+						<p class="intro">A Personal Robot Companion for your Smart Home</p>
+						
+						<p class="micro">- Kubi was my final project for 'Physical Computing' class during Fall 2016 for the HCDE Graduate program at the University of Washington.</p>
+					</div>
+				</div>
+			</section>
+
+
+			<div class="floating-image">
+				<div class="row">
+					<!-- <div class="col-lg-12 	"> -->
+					<img src="images/kubi/kubi-screener-2.png" class="img-fluid responsive">
+					<!-- </div> -->
+				</div>	 
+			</div>
+
+			
+
+			<section id="background" class="white">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h2>DESCRIPTION</h2>
+
+						<p class="normal">
+							Kubi is a personal robot companion for your smart home. He is powered by Alexa, Amazon’s personal voice assistant and offers the same features as the Amazon Echo. Kubi does not require a separate Echo unit, all you need is your voice.
+						</p>
+						
+						
+						<p class="normal">
+
+							Kubi runs on the Raspberry Pi and has a microphone and a speaker to enable voice-based interactions. It connects to the Alexa Voice Service to understand voice commands and perform actions, and also has an Xbee radio to interact with the smart home.
+						</p>
+							<div class="research-images">
+							<img src="images/kubi/robotdiagram.png" class="img-fluid responsive"  alt="Overall Architecture">
+							<div class="image-caption">Kubi Robot</div>
+
+
+						<h3>What can Kubi do?</h3>
+
+						<p class="normal">
+
+						You can ask Kubi about the weather, order a pizza, or play your favorite radio station as you come back home after a long day of work and settle in to relax.
+
+
+						</p>
+
+
+						<p class="normal">
+							Kubi can also control your smart home devices like your lights and your security system. You can ask Kubi to dim the lights or choose between different presets depending on your mood. Kubi also responds to smart home gateway alerts.
+							
+						</p>					
+					</div>
+				</div>
+			</section>
+
+			
+
+			<section id="background" class="grey">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h2>Demo Video</h2>
+
+						<p class="normal">
+							I created a short video to demonstrate Kubi's general and home-automation capabilities.
+							
+						</p>
+
+					</div>
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/V6t_Pl2iHj8" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>		
+					
+					<div class="col-lg-6 col-lg-offset-3">	
+						<p class="normal">
+							In the video, you will notice Kubi's animated eyes blinking and looking around, various expressions and body movements. Although these were programmed to trigger randomly, they seemed to add a sense of liveliness and personality to the robot. 							
+						</p>
+					</div>
+				</div>
+				
+
+				
+			</section>
+
+			<section id="background" class="white">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">	
+
+
+						<h2>SYSTEM DIAGRAM</h2>
+
+						<p class="normal">
+							The Kubi ecosystem consists of the user, the Kubi robot, and the smart home node. In the background, Kubi connects to Alexa Voice Service to understand the voice commands and communicates and converts them to directives that are sent to the Smart Home Skill Adapter.
+						</p>
+					</div>
+
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="research-images">
+							<img src="images/kubi/systemdiagram.png" class="img-fluid responsive"  alt="Overall Architecture">
+							<div class="image-caption">Overall System Diagram</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-lg-offset-3">
+
+						<p class="normal">
+							The Skill Adapter interprets the directives and sends messages to the Device Cloud. A Device Cloud is a cloud environment provided by the device vendor that controls and manages a user's cloud-enabled devices. In my case, I created my own device cloud using AWS IoT. Finally, the smart home, powered by Arduino listens to commands from Kubi over the Xbee radio to control the devices and respond to gateway alerts.
+						</p>
+						
+					</div>
+
+					
+
+				</div>
+			</section>
+
+			
+
+			
+
+			<div id="footer">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3">
+						<a href="portfolio.html" class="decorate"><h3>Back to Portfolio</h3></a>
+					</div>
+				</div>
+			</div>
+
+			
+
+		</div>
+	</div>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58522889-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+
+
+</body>
+</html>
